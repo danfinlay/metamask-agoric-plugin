@@ -19,6 +19,7 @@ Several commands should be run at once to run this demo.
 In the root directory:
 ```
 npm install -g agoric
+agoric install
 agoric start
 ```
 
