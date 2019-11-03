@@ -44,5 +44,6 @@ mm-plugin serve
 ## Use the App
 
 Navigate to `http://localhost:8000/wallet/` to see the wallet UI, with pending offers.
+
 Navigate to `http://localhost3000` to see the exchange UI.
 
