@@ -1,0 +1,27 @@
+{
+  "name": "agoric-metamask-plugin",
+  "version": "1.0.0",
+  "description": "A wallet extension that allows MetaMask to use the Agoric blockchain.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "web3Wallet": {
+    "bundle": {
+      "local": "dist/bundle.js",
+      "url": "http://localhost:8090/dist/bundle.js"
+    },
+    "initialPermissions": {
+      "confirm": {},
+      "wallet_manageAssets": {}
+    }
+  },
+  "dependencies": {
+    "@agoric/captp": "^1.0.2",
+    "@agoric/ertp": "^0.1.11",
+    "@agoric/eventual-send": "^0.4.4",
+    "@agoric/harden": "0.0.4"
+  }
+}
