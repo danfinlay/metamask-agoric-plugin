@@ -2,6 +2,8 @@
 
 Built for the [2019 SF Blockchain Week DeFi Hackahton](https://hackathon.sfblockchainweek.io/).
 
+[Hackathon Entry Page](https://devpost.com/software/agoric-in-metamask-in-agoric)
+
 ![screenshot](./screenshot.png)
 
 A [MetaMask Plugin](https://medium.com/metamask/introducing-the-next-evolution-of-the-web3-wallet-4abdf801a4ee) capable of allowing a MetaMask user to interact with Dapps on the [Agoric blockchain](https://github.com/agoric/agoric).
